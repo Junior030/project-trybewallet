@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: rgba(223, 223, 223, 0.13);
+  display: flex;
+  font-family: Patrick Hand, cursive;
+  justify-content: center;
+  width: 90%;
+}
+
+.imgWallet {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.root {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: flex-start;
+  height: 99.7vh;
+  justify-content: center;
+  width: 99.7vw;
+}
+
+.containerLogin {
+  align-items: center;
+  border-right: 1px solid rgba(128, 128, 128, 0.534);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.containerLogin img {
+  border-radius: 100px;
+  width: 100px;
+}
+
+.containerLogin h1 {
+  font-size: 2.5em;
+  margin: 5px;
+}
+
+.containerLogin form {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerLogin form input {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 30px;
+  letter-spacing: 2px;
+  margin: 5px;
+  text-align: center;
+  width: 300px;
+}
+
+.containerLogin form input::placeholder {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.containerLogin form button {
+  background-color: rgba(128, 128, 128, 0.596);
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  height: 30px;
+  letter-spacing: 2px;
+  margin: 5px;
+  width: 300px;
+}
+
+.containerLogin form button:hover {
+  background-color: rgba(100, 100, 100, 0.425);
+}
+
+.containerWallet header {
+  align-items: center;
+  border-bottom: 1px solid gray;
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.containerWallet span {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin: 0 5px;
+  padding: 0 3px;
+
+}
+
+.containerWallet img {
+  border-radius: 100px;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.containerWallet form {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerWallet form input , .containerWallet select {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 20px;
+  letter-spacing: 2px;
+  margin: 5px;
+  text-align: center;
+  width: 100px;
+}
+
+.containerWallet form input::placeholder {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.containerWallet form button {
+  background-color: rgba(128, 128, 128, 0.596);
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  height: 30px;
+  letter-spacing: 2px;
+  margin: 5px;
+  width: 100px;
+}
+
+.containerWallet form button:hover {
+  background-color: rgba(100, 100, 100, 0.425);
+}
+
+.containerWallet table {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.containerWallet table button {
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  height: 20px;
+  margin: 5px;
+  width: 50px;
+}
+
+.containerWallet td {
+  border: 1px solid gray;
+}
